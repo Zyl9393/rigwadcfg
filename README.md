@@ -11,10 +11,12 @@ The most feasible solution to this problem is the `wad.cfg` file, which can cont
 ```wadcfg
 hl {
 D:\Steam\steamapps\common\Half-Life\valve\halflife.wad
+D:\Steam\steamapps\common\Half-Life\valve\decals.wad
 }
 
 hl3 {
 D:\Steam\steamapps\common\Half-Life\ricochet\ricochet.wad
+D:\Steam\steamapps\common\Half-Life\valve\decals.wad
 }
 ```
 <sup>Example `wad.cfg`.</sup>
