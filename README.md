@@ -19,13 +19,13 @@ D:\Steam\steamapps\common\Half-Life\ricochet\ricochet.wad
 ```
 <sup>Example `wad.cfg`.</sup>
 
-However, Hammer itself painlessly writes long `wad`-strings, and HLCSG can be instructed to omit unused WAD files using `-wadautodetect`, so for some people, such as myself, maintaining `wad.cfg` manually is unnecessary. Hence this tool.
+However, Hammer itself painlessly writes long `wad`-strings, and HLCSG can be instructed to omit unused WAD files using `-wadautodetect` and react to `-wadinclude` even when `wad.cfg` is used, so for some people, such as myself, maintaining `wad.cfg` manually is unnecessary. Hence this tool.
 
 ### Usage
 
 ```bat
 "%TOOLS_PATH%\rigwadcfg.exe" "%MAP_PATH%"
-"%TOOLS_PATH%\hlcsg_x64.exe" "%MAP_PATH%" -wadconfig auto
+"%TOOLS_PATH%\hlcsg_x64.exe" "%MAP_PATH%" -wadconfig auto -wadautodetect
 @REM Invoke other compile tools...
 ```
 
